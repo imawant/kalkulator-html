@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KALKULATOR</title>
+    <link href="pengaturStyle.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- bagian judul utama -->
+    <h1 class="judul">INI KALKULATOR</h1>
+    
+    <!-- layar input dan hasil -->
+    <form name="form">
+        <input class="layar" name="viewbox" disabled="disabled">
+    </form>
+
+    <!-- tombol-tombol -->
+    <table class="buttons">
+        <tr>
+            <td><button class="button" onclick="reset()">C</button></td>
+            <td><button class="button" onclick="hapus()"><-</button></td>
+            <td><button class="button" onclick="add('/')">/</button></td>
+            <td><button class="button" onclick="add('x')">x</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="add(7)">7</button></td>
+            <td><button class="button" onclick="add(8)">8</button></td>
+            <td><button class="button" onclick="add(9)">9</button></td>
+            <td><button class="button" onclick="add('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="add(4)">4</button></td>
+            <td><button class="button" onclick="add(5)">5</button></td>
+            <td><button class="button" onclick="add(6)">6</button></td>
+            <td><button class="button" onclick="add('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" onclick="add(1)">1</button></td>
+            <td><button class="button" onclick="add(2)">2</button></td>
+            <td><button class="button" onclick="add(3)">3</button></td>
+            <td rowspan="2"><button class="button" onclick="hasil()"
+                style="height: 123px">=</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="button" onclick="add(0)"
+                style="width: 163px">0</button></td>
+            <td><button class="button" onclick="add('.')">.</button></td>
+        </tr>
+    </table>
+
+    <script src="algoritmaKu.js"></script>
+</body>
+</html>

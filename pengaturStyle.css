@@ -1,0 +1,42 @@
+body{
+    background-image: url("background.jpg");      /*mengatur warna background bagian body*/
+}
+
+.judul{                         /*bagian yang sudah diberi class judul (tulisan INI KALKULATOR)*/
+    font-family:arial;                      /*mengatur jenis font*/
+    text-align: center;
+    padding: 0px;
+    color:white;                          /*mengatur warna font*/
+    font-size:60px;                         /*mengatur ukuran font*/
+    -webkit-text-stroke-color: black;     /*mengatur warna garis tepi font*/
+    -webkit-text-stroke-width: 2.2px          /*mengatur ketebalan garis tepi font*/
+}
+
+.button{                        /*setiap tombol yang diberi class button*/
+    border-radius: 15px;
+    width:80px;                 /*mengatur lebar tombol*/
+    height:60px;                /*mengatur tinggi tombol*/
+    font-size: 300%;            /*mengatur ukuran font yang ada di dalam tombol*/
+    color: white;             /*mengatur warna font*/
+    text-align: center;         /*mengatur perataan font dalam tombol*/
+    font-family: monospace;     /*mengatur jenis font dalam tombol*/
+    cursor:pointer;             /*mengatur perubahan pointer ketika cursor ada di area tombol*/
+    background: grey;         /*mengatur warna tombol*/
+}
+
+.layar{                         /*bagian tampilan input dan hasil*/
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;        /*mengatur warna background kotak*/
+    width: 325px;               /*mengatur lebar kotak*/
+    height: 60px;               /*mengatur tinggi kotak*/
+    font-size: 250%;            /*mengatur ukuran font input dan hasil*/
+    border: solid;              /*mengatur jenis border*/
+    color:black;              /*mengatur warna border*/
+}
+
+.buttons{    
+    margin: auto;}
